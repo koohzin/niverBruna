@@ -1,4 +1,4 @@
-let niver = new Date(`November 28, 2022`)
+let niver = new Date(2022, 10, 28)
 
 let dataAtual = new Date()
 
@@ -15,7 +15,8 @@ document.getElementById("niver").innerHTML = days + "d "
 + hours + "h " + minutes + "m " + seconds + "s ";
     if (t < 0) {
         clearInterval(x);
-        document.getElementById("niver").innerHTML = "🖤 PARABÉNS BRUNA 🖤";
+        document.getElementById("niver").innerHTML = "";
+        document.querySelector('.parabens').style.display = "flex";
     }
 }, 1000);
 
@@ -29,3 +30,4 @@ function atualizarNiver(){
 
 }
 
+console.log(niver)
