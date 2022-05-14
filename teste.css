@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    flex-direction: column;
+}
+
+#niver{
+    font-size: 100px;
+    font-family: 'Shadows Into Light', cursive;
+    color: #fff;
+}
+
+h1{
+    font-size: 70px;
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+    cursor: pointer;
+}
